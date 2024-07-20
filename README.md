@@ -19,5 +19,6 @@ go build -o notely && ./notely
 ```
 
 *This starts the server in non-database mode.* It will serve a simple webpage at `http://localhost:8080`.
+*Ignore the warning about missing databse during compiling, it's not critical.
 
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
