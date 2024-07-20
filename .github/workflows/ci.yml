@@ -1,4 +1,4 @@
-name: ci
+name: CI Testing
 
 on:
   pull_request:
@@ -35,4 +35,4 @@ jobs:
           go-version: "1.22"
 
       - name: Format code
-        run: go fmt ./...
+        run: test -z $(go fmt ./...)
